@@ -3,3 +3,67 @@ body {
   height: 100%;
   margin: 0;
 }
+
+div.heading {
+  display: flex;
+  justify-content: center;
+}
+
+div.navbar {
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#special {
+ background-color: aqua;
+ padding: 5px;
+}
+
+
+div.property {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+ width: 900px;
+ margin-left: 10%;
+ margin-right: 33%;
+}
+
+div.caption {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+
+div.p1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 15%;
+  margin-right: 20%;
+  width: 800px;
+}
+
+div.p2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 15%;
+  margin-right: 20%;
+  width: 800px;
+}
+
+section#details {
+  display: flex;
+  float: left;
+  justify-content: space-around;
+  box-sizing: border-box;
+  border: 2px solid red;
+  background-color: red;
+  width: 100%;
+  height: 25%;
+  text-align: center;
+}
